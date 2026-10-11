@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = process.env.ELEVENLABS_API_KEY || 'sk_991fee7699f9bce3590741b28c4823927e4554d6aae6c91b';
+const API_KEY = process.env.ELEVENLABS_API_KEY || ;
 const VOICE_ID = 'Xb7hH8MSUJpSbSDYk0k2'; // Alice
 
 const audios = {
